@@ -14,6 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-👋 Hi, I’m @quannhq
-🌱 I’m currently learning C# .NET, JavaScript and TypeScript
-📫 How to reach me: nguyenhoangquan.contact@gmail.com
+
+-👋 Hi, I’m @quannhq
+-🌱 I’m currently learning C# .NET, JavaScript and TypeScript
+-📫 How to reach me: nguyenhoangquan.contact@gmail.com
