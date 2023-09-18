@@ -12,5 +12,5 @@ Here are some ideas to get you started:
  -->
 
 - 👋 Hi, I’m @quannhq
-- 🌱 I’m currently learning C# .NET, JavaScript and TypeScript
+- 🌱 I’m currently learning JavaScript and TypeScript, C#.NET
 - 📫 How to reach me: nguyenhoangquan.contact@gmail.com
