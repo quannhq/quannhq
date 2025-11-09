@@ -43,8 +43,8 @@ Here are some ideas to get you started:
 
 ### 📫 Contact Me
 
-- 🌐 Portfolio:  <!--[quannhq.github.io](https://quannhq.github.io)  --> *(optional link — update when ready)*  
-- 💼 LinkedIn:  <!-- [linkedin.com/in/quannhq](https://linkedin.com/in/quanngh)  
+- 🌐 Portfolio:  ** — update when ready **
+- 💼 LinkedIn:  [linkedin.com/in/quannhq](https://linkedin.com/in/quanngh)  
 - 📧 Email: **nguyenhoangquan.contact@gmail.com**  
 - 🧑‍💻 GitHub: [github.com/quannhq](https://github.com/quannhq)
 
