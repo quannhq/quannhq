@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 💻 Building modern, scalable web apps with **TypeScript**, **Node.js (NestJS/Express)**, and **React/Next.js**  
 🧠 Passionate about **backend architecture**, **database design (PostgreSQL, Prisma)**, and **clean code**  
 🚀 Exploring **microservices**, **AWS Cloud**, and **CI/CD pipelines** for production-grade systems  
-🌱 Currently completing a 12-month **Hardcore Web Developer** program — hands-on, project-based, and English-driven  
+🌱 Currently completing ** Web Developer** program — hands-on, project-based, and English-driven  
 🎯 Goal: Become a world-class remote engineer building global SaaS products
 
 ---
