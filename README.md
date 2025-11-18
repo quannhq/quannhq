@@ -38,163 +38,165 @@
 > — quannhq
 
 -->
+# 👋 Hi, I’m @quannhq  
+**Backend Engineer (Node.js/TypeScript) — Architecture • Systems • Databases**
 
-
-<div align="center">
-
-# 🚀 Ngu — Backend / Full-Stack JavaScript Engineer  
-**TypeScript • Node.js • Next.js • PostgreSQL • SaaS Architecture • Web3**
-
-Building clean, scalable, real-world products.
-
-<br/>
-
-![Node.js](https://img.shields.io/badge/Node.js-3C873A?style=for-the-badge&logo=node.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-0C344B?style=for-the-badge&logo=prisma&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-
-<br/>
-✨ *I build backend-heavy JavaScript products designed for scale and long-term maintainability.*  
-</div>
+I focus on building backend systems that are **predictable**, **scalable**, and **maintainable**.  
+Long-term, I’m developing into a **Full-Stack Product Engineer** with strong backend roots.
 
 ---
 
-# 🧩 About Me
-Backend-first engineer specializing in:
-
-- TypeScript backend systems (Node.js + clean architecture)  
-- Full-stack product development using **Next.js**  
-- SaaS application patterns (multi-tenant, RBAC, billing flows, dashboards)  
-- High-quality APIs with strong database design  
-- Web3 integrations: Solidity, Hardhat, on-chain indexing  
-- PostgreSQL-centric architecture, Prisma ORM  
-
-My goal is to ship **real, production-ready products**, not just demo code.
+# 🧠 Core Engineering Focus
+- Backend architecture (clean, layered, modular monolith → services)
+- API design (REST, versioning, auth, rate limiting)
+- PostgreSQL schema design, indexing, query plans
+- Distributed components: caching, pub/sub, workers
+- Production workflows: Docker, CI/CD, cloud
+- System Design fundamentals
 
 ---
 
-# ⚙️ Core Tech Skills
+# ⚙️ Technical Skillset
 
-### **Backend Engineering**
-- Node.js • TypeScript  
-- NestJS • Express  
-- PostgreSQL • Prisma  
-- Redis (cache, rate limiting)  
-- RESTful & RPC architectures  
-- Clean architecture, modular services  
+### **Backend Core**
+- **Node.js** (NestJS, Express)
+- **TypeScript** (strict, clean patterns)
+- **PostgreSQL** (indexes, transactions, EXPLAIN)
+- **Prisma ORM**
+- **Redis** (pub/sub, caching)
+- Queues • Background jobs • Logging/metrics
 
-### **Full-Stack Web**
-- React • Next.js (App Router)  
-- TailwindCSS • Zustand  
-- Server Components • SSR/ISR  
-- API integration patterns  
+### **Frontend (Fullstack Long-Term Path)**
+- React
+- Next.js (App Router, SSR/RSC)
+- TailwindCSS
+- Zustand
 
-### **SaaS Development**
-- Authentication (JWT/OAuth)  
-- Role-based access (RBAC)  
-- Multi-tenant architecture  
-- Subscription flows (Stripe-ready structure)  
-- Dashboard systems & analytics  
-
-### **Web3 Engineering**
-- Solidity  
-- Hardhat  
-- Ethers.js  
-- Node.js event indexer  
-- Contract → Dashboard → API flow  
+### **DevOps & Cloud (Remote-Ready Essentials)**
+- Docker • Docker Compose
+- GitHub Actions (CI/CD pipelines)
+- AWS (EC2, S3, CloudFront)
+- Railway / Render (prototyping deployment)
 
 ---
 
-# 🚀 Featured Projects  
-Minimal, product-focused, architecture-aware.
+# 🏗 System Architecture Diagrams  
+*(FAANG style — minimal, technical, focused on flows & components)*
 
----
-
-## ⭐ **1. SaaS Task Manager (Backend-Heavy)**
-Scalable task management platform with clean modular backend.
+## **1. Task Manager API — Clean Backend Architecture**
 
 ```
-Next.js → API Layer → Node.js Service → PostgreSQL
-                             ↘ Redis Cache
-                             ↘ Background Workers
+                  ┌───────────────────────┐
+                  │       Client/App       │
+                  └────────────┬───────────┘
+                               │  REST
+                               ▼
+                   ┌────────────────────────┐
+                   │    API Layer (Node)    │
+                   └──────┬────────┬────────┘
+                          │        │
+                Validation│        │Auth/JWT
+                          ▼        ▼
+               ┌────────────────────────┐
+               │   Application Layer     │
+               └──────┬────────┬────────┘
+                      │        │
+               Services│        │Domain Logic
+                      ▼        ▼
+        ┌────────────────────────────┐
+        │ PostgreSQL (Prisma ORM)    │
+        └────────────────────────────┘
+                      │
+                      ▼
+           ┌─────────────────────┐
+           │ Redis (Cache/Queue) │
+           └─────────────────────┘
 ```
-
-**Features:** RBAC, project/task management, activity logs, rate limiting  
-🔗 Live Demo (coming soon)  
-🔗 Source Code (link)
 
 ---
 
-## ⭐ **2. Web3 DeFi Mini — Contract + Indexer + Dashboard**
-A small but complete on-chain product.
+## **2. Realtime Chat App — Pub/Sub Architecture**
 
 ```
-UI (Next.js)
-   ↓ RPC
-Smart Contracts (Solidity)
-   ↓ Events
-Indexer (Node.js → PostgreSQL)
+Client → Socket.io Gateway → Node Server  
+                           ↘ Redis Pub/Sub  
 ```
-
-**Features:** ERC-20 token, staking contract, on-chain stats dashboard  
-🔗 Live Demo (coming soon)  
-🔗 Source Code (link)
 
 ---
 
-## ⭐ **3. Multi-Tenant SaaS Boilerplate (Next.js + Node.js)**
-Designed for fast product iteration.
+## **3. SaaS Backend — API Gateway + Services**
 
 ```
-Tenant Router → Auth → Node API → Postgres (Schema-per-tenant or Row-level)
+                   Client/Frontend
+                          │
+                          ▼
+                    API Gateway
+        ┌───────────────┼────────────────┐
+        ▼               ▼                ▼
+ Authentication   User Service     Billing Service
+        │               │                │
+        └───────────────┴────────────────┘
+                        ▼
+                 PostgreSQL (RLS)
 ```
-
-**Features:** Org roles, team invites, audit logs, settings panel  
-🔗 Source Code (link)
 
 ---
 
-## ⭐ **4. Full-Stack Marketplace**
-Clean architecture with strong database design.
+# 🚀 Backend Projects (Primary Track)
 
-```
-Next.js → Node API → PostgreSQL
-                ↘ Redis Cache
-```
-
-**Features:** Product listings, cart, payment mock, admin dashboard  
-🔗 Live Demo (coming soon)  
-🔗 Source Code (link)
+| Project | Description | Status |
+|--------|-------------|--------|
+| **Task Manager API** | Clean backend: PostgreSQL, Prisma, JWT, RBAC, caching | 🏗 In progress |
+| **E-Commerce Backend** | Product catalog, uploads, filters, admin logic | 💡 Research |
+| **Realtime Chat** | Socket.io + Redis pub/sub | 💬 Planned |
+| **SaaS Backend Capstone** | API gateway, services, rate limiting, logging | 🚀 Coming soon |
 
 ---
 
-# 📈 Learning Journey (focused & practical)
-
-### Actively improving:
-- Distributed backend patterns (queues, workers, message buses)  
-- Next.js performance tuning & RSC patterns  
-- Smart contract security basics  
-- Postgres performance (indexes, query plans)  
-
-### Current builds:
-- DeFi Indexer v2  
-- SaaS dashboard components  
-- Multi-region Postgres experiments  
+# 🌐 Fullstack Expansion (Long-Term)
+- Multi-tenant SaaS architecture (orgs, roles, teams)
+- Next.js RSC + server actions
+- Dashboard systems, metrics, audit logs
+- Fullstack DX: caching layers, edge rendering
 
 ---
 
-# 🧭 Engineering Mindset
-> **Build it simple. Build it scalable. Build it to last.**  
-> Every line of code either reduces chaos or increases it. I choose clarity.
+# 🎯 Medium-Term Remote Backend Roadmap
+- Strengthen Node.js performance patterns
+- Master PostgreSQL (indexes, EXPLAIN, optimization)
+- Learn distributed backend components properly
+- Improve system design (load balancing, queues, caching)
+- Build stable CI/CD pipelines for deployments
+- Develop remote-ready coding/documentation habits
 
 ---
 
-# 📊 GitHub Stats
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=yourprofile&theme=tokyonight" width="48%" />
-  <img src="https://github-readm
+# 🌱 Long-Term Fullstack Engineering Goals
+- Deep understanding of Next.js internals (RSC, streaming)
+- Build production-grade SaaS UIs (admin dashboards, analytics)
+- Strong product mindset: simplicity → iteration → scale
+- Architecture thinking from backend → frontend → infra
+
+---
+
+# 🔧 What I'm Improving Right Now
+- Rate limiting, caching strategies, pub/sub patterns  
+- Transaction boundaries, DB consistency  
+- Scalable folder structure for backend services  
+- CI/CD automation  
+- Next.js server components + caching  
+
+---
+
+# 📫 Contact  
+LinkedIn: https://linkedin.com/in/quanngh  
+Email: **nguyenhoangquan.contact@gmail.com**  
+GitHub: https://github.com/quannhq  
+Portfolio: *(coming soon)*
+
+---
+
+> “Backend first. Architecture always. Fullstack eventually.”  
+> — **quannhq**
+
 
