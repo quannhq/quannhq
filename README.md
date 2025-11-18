@@ -38,165 +38,94 @@
 > — quannhq
 
 -->
-# 👋 Hi, I’m @quannhq  
-**Backend Engineer (Node.js/TypeScript) — Architecture • Systems • Databases**
+## 👋 Hi, I’m @quannhq
 
-I focus on building backend systems that are **predictable**, **scalable**, and **maintainable**.  
-Long-term, I’m developing into a **Full-Stack Product Engineer** with strong backend roots.
-
----
-
-# 🧠 Core Engineering Focus
-- Backend architecture (clean, layered, modular monolith → services)
-- API design (REST, versioning, auth, rate limiting)
-- PostgreSQL schema design, indexing, query plans
-- Distributed components: caching, pub/sub, workers
-- Production workflows: Docker, CI/CD, cloud
-- System Design fundamentals
+🌍 **Aspiring Backend Developer (Vietnam-based)**  
+<!-- 🌍 **Early-Career Backend Developer (Vietnam-based)**  -->
+💻 Learning and building with **TypeScript**, **Node.js (NestJS/Express)**, and **React/Next.js**  
+🧠 Currently improving my understanding of **backend architecture**, **database design**, and **API development**  
+🚀 Medium-term goal: Become a dependable **Remote Backend Engineer**  
+🌱 Long-term goal: Grow into a **Full-Stack Engineer** capable of building real SaaS products  
+🎯 I’m still early in my journey, but I’m committed to consistent progress and real-world projects
 
 ---
 
-# ⚙️ Technical Skillset
+### 🛠️ Tech Stack (Learning & Improving)
 
-### **Backend Core**
-- **Node.js** (NestJS, Express)
-- **TypeScript** (strict, clean patterns)
-- **PostgreSQL** (indexes, transactions, EXPLAIN)
-- **Prisma ORM**
-- **Redis** (pub/sub, caching)
-- Queues • Background jobs • Logging/metrics
+| Languages | Frontend | Backend | SQL DB | NoSQL DB | DevOps |
+|------------|-----------|----------|---------|-----------|---------|
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react) ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat&logo=nextdotjs) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs) ![Express](https://img.shields.io/badge/Express-000?style=flat&logo=express) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma) | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb) | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions) |
 
-### **Frontend (Fullstack Long-Term Path)**
-- React
-- Next.js (App Router, SSR/RSC)
-- TailwindCSS
-- Zustand
-
-### **DevOps & Cloud (Remote-Ready Essentials)**
-- Docker • Docker Compose
-- GitHub Actions (CI/CD pipelines)
-- AWS (EC2, S3, CloudFront)
-- Railway / Render (prototyping deployment)
+> *I’m actively learning all the technologies above.
+Some I use confidently, others I’m gradually getting better at.*
 
 ---
 
-# 🏗 System Architecture Diagrams  
-*(FAANG style — minimal, technical, focused on flows & components)*
+### 🚀 Projects I’m Building to Learn Backend Properly
 
-## **1. Task Manager API — Clean Backend Architecture**
+| Project | What I'm Learning | Status |
+|----------|--------------------|---------|
+| **Task Manager API** | Database schema design, JWT Auth, CRUD patterns | 🧱 In progress |
+| **E-Commerce Backend** | File upload, filtering, controller/service structure | 💡 Planning |
+| **Realtime Chat App** | Socket.io basics, Redis pub/sub | 💬 Upcoming |
+| **SaaS Backend (Capstone)** | API Gateway, rate limiting, caching | 🚀 Future milestone |
 
-```
-                  ┌───────────────────────┐
-                  │       Client/App       │
-                  └────────────┬───────────┘
-                               │  REST
-                               ▼
-                   ┌────────────────────────┐
-                   │    API Layer (Node)    │
-                   └──────┬────────┬────────┘
-                          │        │
-                Validation│        │Auth/JWT
-                          ▼        ▼
-               ┌────────────────────────┐
-               │   Application Layer     │
-               └──────┬────────┬────────┘
-                      │        │
-               Services│        │Domain Logic
-                      ▼        ▼
-        ┌────────────────────────────┐
-        │ PostgreSQL (Prisma ORM)    │
-        └────────────────────────────┘
-                      │
-                      ▼
-           ┌─────────────────────┐
-           │ Redis (Cache/Queue) │
-           └─────────────────────┘
-```
+> *These projects help me practice real backend workflows instead of only learning theory.*
 
 ---
 
-## **2. Realtime Chat App — Pub/Sub Architecture**
+### 🌱 Full-Stack Goals (Long-Term)
 
-```
-Client → Socket.io Gateway → Node Server  
-                           ↘ Redis Pub/Sub  
-```
-
----
-
-## **3. SaaS Backend — API Gateway + Services**
-
-```
-                   Client/Frontend
-                          │
-                          ▼
-                    API Gateway
-        ┌───────────────┼────────────────┐
-        ▼               ▼                ▼
- Authentication   User Service     Billing Service
-        │               │                │
-        └───────────────┴────────────────┘
-                        ▼
-                 PostgreSQL (RLS)
-```
+| Project | Purpose | Status |
+|---------|----------|---------|
+| **Multi-Tenant SaaS Boilerplate** | To understand SaaS fundamentals (auth, roles, teams) | 📦 Future |
+| **Admin Dashboard (Next.js)** | To learn data visualization & backend→frontend integration | 📌 Planned |
+| **Analytics App** | To practice building both API + dashboard UI | 📌 Planned |
 
 ---
 
-# 🚀 Backend Projects (Primary Track)
+### 🎯 Medium-Term Plan → Backend Remote
 
-| Project | Description | Status |
-|--------|-------------|--------|
-| **Task Manager API** | Clean backend: PostgreSQL, Prisma, JWT, RBAC, caching | 🏗 In progress |
-| **E-Commerce Backend** | Product catalog, uploads, filters, admin logic | 💡 Research |
-| **Realtime Chat** | Socket.io + Redis pub/sub | 💬 Planned |
-| **SaaS Backend Capstone** | API gateway, services, rate limiting, logging | 🚀 Coming soon |
-
----
-
-# 🌐 Fullstack Expansion (Long-Term)
-- Multi-tenant SaaS architecture (orgs, roles, teams)
-- Next.js RSC + server actions
-- Dashboard systems, metrics, audit logs
-- Fullstack DX: caching layers, edge rendering
+- Strengthen Node.js fundamentals  
+- Learn how to structure clean, maintainable codebases  
+- Get comfortable with PostgreSQL indexing & query optimization  
+- Practice caching, rate limiting, and background jobs  
+- Build CI/CD habits (testing → deploy → iterate)  
+- Improve English for documentation & remote collaboration  
 
 ---
 
-# 🎯 Medium-Term Remote Backend Roadmap
-- Strengthen Node.js performance patterns
-- Master PostgreSQL (indexes, EXPLAIN, optimization)
-- Learn distributed backend components properly
-- Improve system design (load balancing, queues, caching)
-- Build stable CI/CD pipelines for deployments
-- Develop remote-ready coding/documentation habits
+### 🌱 Long-Term Plan → Full-Stack SaaS Engineer
+
+- Become confident with **Next.js App Router**  
+- Build dashboard interfaces with real data  
+- Understand SaaS patterns (roles, settings, analytics)  
+- Learn frontend performance & accessibility basics  
+- Strengthen overall system thinking (backend → frontend → infra)  
 
 ---
 
-# 🌱 Long-Term Fullstack Engineering Goals
-- Deep understanding of Next.js internals (RSC, streaming)
-- Build production-grade SaaS UIs (admin dashboards, analytics)
-- Strong product mindset: simplicity → iteration → scale
-- Architecture thinking from backend → frontend → infra
+### 🔧 What I’m Actively Improving Right Now
+
+- Clean architecture  
+- Redis caching basics  
+- Error handling & logging  
+- Database migrations with Prisma  
+- Writing better, clearer code  
+- Building consistently (even when progress feels slow)
 
 ---
 
-# 🔧 What I'm Improving Right Now
-- Rate limiting, caching strategies, pub/sub patterns  
-- Transaction boundaries, DB consistency  
-- Scalable folder structure for backend services  
-- CI/CD automation  
-- Next.js server components + caching  
+### 📫 Contact Me
+
+- 🌐 Portfolio: *(coming soon)*  
+- 💼 LinkedIn: https://linkedin.com/in/quanngh  
+- 📧 Email: **nguyenhoangquan.contact@gmail.com**  
+- 🧑‍💻 GitHub: https://github.com/quannhq  
 
 ---
 
-# 📫 Contact  
-LinkedIn: https://linkedin.com/in/quanngh  
-Email: **nguyenhoangquan.contact@gmail.com**  
-GitHub: https://github.com/quannhq  
-Portfolio: *(coming soon)*
-
----
-
-> “Backend first. Architecture always. Fullstack eventually.”  
-> — **quannhq**
+> **“No bugs left unresolved. No code left untested. No learning without building.”**  
+> — *quannhq*
 
 
