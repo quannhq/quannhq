@@ -40,8 +40,8 @@
 -->
 ## 👋 Hi, I’m @quannhq
 
-🌍 **Aspiring Backend Developer (Vietnam-based)**  
 <!-- 🌍 **Early-Career Backend Developer (Vietnam-based)**  -->
+🌍 **Aspiring Backend Developer (Vietnam-based)**  
 💻 Learning and building with **TypeScript**, **Node.js (NestJS/Express)**, and **React/Next.js**  
 🧠 Currently improving my understanding of **backend architecture**, **database design**, and **API development**  
 🚀 Medium-term goal: Become a dependable **Remote Backend Engineer**  
