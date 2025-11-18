@@ -1,21 +1,4 @@
-<!-- ### Hi there 👋
-
-
-**quannhq/quannhq** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-
-- 👋 Hi, I’m @quannhq
-- 🌱 I’m currently learning JavaScript and TypeScript, C#.NET
-- 📫 How to reach me: nguyenhoangquan.contact@gmail.com
- -->
-
+<!-- 
 ## 👋 Hi, I’m @quannhq
 
 🌍 **Remote Full-Stack Developer (Vietnam-based)**  
@@ -53,3 +36,165 @@ Here are some ideas to get you started:
 
 > “No bugs left unresolved. No code left untested. No learning without building.”  
 > — quannhq
+
+-->
+
+
+<div align="center">
+
+# 🚀 Ngu — Backend / Full-Stack JavaScript Engineer  
+**TypeScript • Node.js • Next.js • PostgreSQL • SaaS Architecture • Web3**
+
+Building clean, scalable, real-world products.
+
+<br/>
+
+![Node.js](https://img.shields.io/badge/Node.js-3C873A?style=for-the-badge&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-0C344B?style=for-the-badge&logo=prisma&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+
+<br/>
+✨ *I build backend-heavy JavaScript products designed for scale and long-term maintainability.*  
+</div>
+
+---
+
+# 🧩 About Me
+Backend-first engineer specializing in:
+
+- TypeScript backend systems (Node.js + clean architecture)  
+- Full-stack product development using **Next.js**  
+- SaaS application patterns (multi-tenant, RBAC, billing flows, dashboards)  
+- High-quality APIs with strong database design  
+- Web3 integrations: Solidity, Hardhat, on-chain indexing  
+- PostgreSQL-centric architecture, Prisma ORM  
+
+My goal is to ship **real, production-ready products**, not just demo code.
+
+---
+
+# ⚙️ Core Tech Skills
+
+### **Backend Engineering**
+- Node.js • TypeScript  
+- NestJS • Express  
+- PostgreSQL • Prisma  
+- Redis (cache, rate limiting)  
+- RESTful & RPC architectures  
+- Clean architecture, modular services  
+
+### **Full-Stack Web**
+- React • Next.js (App Router)  
+- TailwindCSS • Zustand  
+- Server Components • SSR/ISR  
+- API integration patterns  
+
+### **SaaS Development**
+- Authentication (JWT/OAuth)  
+- Role-based access (RBAC)  
+- Multi-tenant architecture  
+- Subscription flows (Stripe-ready structure)  
+- Dashboard systems & analytics  
+
+### **Web3 Engineering**
+- Solidity  
+- Hardhat  
+- Ethers.js  
+- Node.js event indexer  
+- Contract → Dashboard → API flow  
+
+---
+
+# 🚀 Featured Projects  
+Minimal, product-focused, architecture-aware.
+
+---
+
+## ⭐ **1. SaaS Task Manager (Backend-Heavy)**
+Scalable task management platform with clean modular backend.
+
+```
+Next.js → API Layer → Node.js Service → PostgreSQL
+                             ↘ Redis Cache
+                             ↘ Background Workers
+```
+
+**Features:** RBAC, project/task management, activity logs, rate limiting  
+🔗 Live Demo (coming soon)  
+🔗 Source Code (link)
+
+---
+
+## ⭐ **2. Web3 DeFi Mini — Contract + Indexer + Dashboard**
+A small but complete on-chain product.
+
+```
+UI (Next.js)
+   ↓ RPC
+Smart Contracts (Solidity)
+   ↓ Events
+Indexer (Node.js → PostgreSQL)
+```
+
+**Features:** ERC-20 token, staking contract, on-chain stats dashboard  
+🔗 Live Demo (coming soon)  
+🔗 Source Code (link)
+
+---
+
+## ⭐ **3. Multi-Tenant SaaS Boilerplate (Next.js + Node.js)**
+Designed for fast product iteration.
+
+```
+Tenant Router → Auth → Node API → Postgres (Schema-per-tenant or Row-level)
+```
+
+**Features:** Org roles, team invites, audit logs, settings panel  
+🔗 Source Code (link)
+
+---
+
+## ⭐ **4. Full-Stack Marketplace**
+Clean architecture with strong database design.
+
+```
+Next.js → Node API → PostgreSQL
+                ↘ Redis Cache
+```
+
+**Features:** Product listings, cart, payment mock, admin dashboard  
+🔗 Live Demo (coming soon)  
+🔗 Source Code (link)
+
+---
+
+# 📈 Learning Journey (focused & practical)
+
+### Actively improving:
+- Distributed backend patterns (queues, workers, message buses)  
+- Next.js performance tuning & RSC patterns  
+- Smart contract security basics  
+- Postgres performance (indexes, query plans)  
+
+### Current builds:
+- DeFi Indexer v2  
+- SaaS dashboard components  
+- Multi-region Postgres experiments  
+
+---
+
+# 🧭 Engineering Mindset
+> **Build it simple. Build it scalable. Build it to last.**  
+> Every line of code either reduces chaos or increases it. I choose clarity.
+
+---
+
+# 📊 GitHub Stats
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=yourprofile&theme=tokyonight" width="48%" />
+  <img src="https://github-readm
+
