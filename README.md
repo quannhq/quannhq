@@ -38,83 +38,73 @@
 > — quannhq
 
 -->
-## 👋 Hi, I’m @quannhq
+# 👋 Hi, I’m Quan
 
-<!-- 🌍 **Early-Career Backend Developer (Vietnam-based)**  -->
-🌍 **Aspiring Backend Developer (Vietnam-based)**  
-💻 Learning and building with **TypeScript**, **Node.js (NestJS/Express)**, and **React/Next.js**  
-🧠 Currently improving my understanding of **backend architecture**, **database design**, and **API development**  
-🚀 Medium-term goal: Become a dependable **Remote Backend Engineer**  
-🌱 Long-term goal: Grow into a **Full-Stack Engineer** capable of building real SaaS products  
-🎯 I’m still early in my journey, but I’m committed to consistent progress and real-world projects
+🇻🇳 Vietnam-based • Aspiring **Remote Backend Engineer**  
+I focus on building **production-style backend systems** with clean architecture, strong database design, and real-world workflows (testing, Docker, CI/CD, deployment).
 
 ---
 
-### 🛠️ Tech Stack (Learning & Improving)
+## 🚀 Featured Projects (Focus)
 
-| Languages | Frontend | Backend | SQL DB | NoSQL DB | DevOps |
-|------------|-----------|----------|---------|-----------|---------|
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react) ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat&logo=nextdotjs) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs) ![Express](https://img.shields.io/badge/Express-000?style=flat&logo=express) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma) | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb) | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions) |
+### 1) HireFlow — Multi-Tenant ATS + Job Board (Capstone)
+**A production-style SaaS backend + minimal dashboard UI**  
+Built to demonstrate real remote backend skills: multi-tenancy, RBAC, background jobs, caching, and deployment.
 
-> *I’m actively learning all the technologies above.
-Some I use confidently, others I’m gradually getting better at.*
+**Backend highlights**
+- TypeScript + Node.js (Express/Fastify)
+- PostgreSQL + Prisma (migrations, indexing, pagination)
+- JWT Auth + Refresh Tokens
+- RBAC (Owner/Admin/Member)
+- Multi-tenant data isolation
+- Redis caching + background jobs (queue)
+- API docs (OpenAPI/Swagger)
+- Testing (unit + integration)
+- Docker + CI/CD (GitHub Actions)
+- Deployment (cloud)
 
----
-
-### 🚀 Projects I’m Building to Learn Backend Properly
-
-| Project | What I'm Learning | Status |
-|----------|--------------------|---------|
-| **Task Manager API** | Database schema design, JWT Auth, CRUD patterns | 🧱 In progress |
-| **E-Commerce Backend** | File upload, filtering, controller/service structure | 💡 Planning |
-| **Realtime Chat App** | Socket.io basics, Redis pub/sub | 💬 Upcoming |
-| **SaaS Backend (Capstone)** | API Gateway, rate limiting, caching | 🚀 Future milestone |
-
-> *These projects help me practice real backend workflows instead of only learning theory.*
+**Status:** In progress → shipping v1 with deploy + docs
 
 ---
 
-### 🌱 Full-Stack Goals (Long-Term)
+### 2) Task Manager API (Foundation Project)
+A smaller backend project to practice:
+- REST API patterns
+- PostgreSQL schema design
+- Auth (JWT)
+- Validation, error handling
+- Clean controller/service structure
 
-| Project | Purpose | Status |
-|---------|----------|---------|
-| **Multi-Tenant SaaS Boilerplate** | To understand SaaS fundamentals (auth, roles, teams) | 📦 Future |
-| **Admin Dashboard (Next.js)** | To learn data visualization & backend→frontend integration | 📌 Planned |
-| **Analytics App** | To practice building both API + dashboard UI | 📌 Planned |
-
----
-
-### 🎯 Medium-Term Plan → Backend Remote
-
-- Strengthen Node.js fundamentals  
-- Learn how to structure clean, maintainable codebases  
-- Get comfortable with PostgreSQL indexing & query optimization  
-- Practice caching, rate limiting, and background jobs  
-- Build CI/CD habits (testing → deploy → iterate)  
-- Improve English for documentation & remote collaboration  
+**Status:** Completed / Maintaining
 
 ---
 
-### 🌱 Long-Term Plan → Full-Stack SaaS Engineer
+## 🧠 Core Skills (Actively Improving)
+- Backend architecture (controller/service/repository)
+- Database design & query optimization (PostgreSQL)
+- Security: validation, rate limiting, refresh token strategy
+- Caching & background processing (Redis)
+- Testing mindset (integration-first)
+- Docker & CI/CD workflows
+- Writing clear technical documentation
 
-- Become confident with **Next.js App Router**  
-- Build dashboard interfaces with real data  
-- Understand SaaS patterns (roles, settings, analytics)  
-- Learn frontend performance & accessibility basics  
-- Strengthen overall system thinking (backend → frontend → infra)  
+---
+
+## 🛠 Tech Stack
+**Backend:** TypeScript, Node.js, Express/Fastify, Prisma, PostgreSQL, Redis  
+**DevOps:** Docker, GitHub Actions  
+**Frontend (minimal):** Next.js, TailwindCSS
 
 ---
 
-### 🔧 What I’m Actively Improving Right Now
-
-- Clean architecture  
-- Redis caching basics  
-- Error handling & logging  
-- Database migrations with Prisma  
-- Writing better, clearer code  
-- Building consistently (even when progress feels slow)
+## 🎯 Goal
+**Medium-term:** Become a dependable **Remote Backend Engineer**  
+**Long-term:** Grow into a Full-Stack Engineer capable of building real SaaS products
 
 ---
+
+## 📫 Contact
+- GitHub: @quannhq
 
 ### 📫 Contact Me
 
