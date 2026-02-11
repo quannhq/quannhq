@@ -38,70 +38,83 @@
 > — quannhq
 
 -->
-# 👋 Hi, I’m Quan
+<h1 align="center">Hi 👋, I'm Quan</h1>
+<p align="center">
+  🇻🇳 Vietnam-based • Aspiring <b>Remote Backend Engineer</b><br/>
+  I build <b>production-style backend systems</b> with clean architecture, strong DB design, and real-world workflows.
+</p>
 
-🇻🇳 Vietnam-based • Aspiring **Remote Backend Engineer**  
-I focus on building **production-style backend systems** with clean architecture, strong database design, and real-world workflows (testing, Docker, CI/CD, deployment).
-
----
-
-## 🚀 Featured Projects (Focus)
-
-### 1) HireFlow — Multi-Tenant ATS + Job Board (Capstone)
-**A production-style SaaS backend + minimal dashboard UI**  
-Built to demonstrate real remote backend skills: multi-tenancy, RBAC, background jobs, caching, and deployment.
-
-**Backend highlights**
-- TypeScript + Node.js (Express/Fastify)
-- PostgreSQL + Prisma (migrations, indexing, pagination)
-- JWT Auth + Refresh Tokens
-- RBAC (Owner/Admin/Member)
-- Multi-tenant data isolation
-- Redis caching + background jobs (queue)
-- API docs (OpenAPI/Swagger)
-- Testing (unit + integration)
-- Docker + CI/CD (GitHub Actions)
-- Deployment (cloud)
-
-**Status:** In progress → shipping v1 with deploy + docs
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-Ready-informational" />
+  <img src="https://img.shields.io/badge/Node.js-Backend-success" />
+  <img src="https://img.shields.io/badge/PostgreSQL-Database-blue" />
+  <img src="https://img.shields.io/badge/Prisma-ORM-black" />
+  <img src="https://img.shields.io/badge/Docker-DevOps-9cf" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-CI/CD-yellow" />
+</p>
 
 ---
 
-### 2) Task Manager API (Foundation Project)
-A smaller backend project to practice:
-- REST API patterns
-- PostgreSQL schema design
-- Auth (JWT)
-- Validation, error handling
+## ⭐ Featured Projects (Focus)
+
+### 🚀 HireFlow — Multi-Tenant ATS + Job Board (Capstone)
+A production-style **SaaS backend + minimal dashboard UI**, built to demonstrate real remote backend skills.
+
+**Highlights**
+- 🔐 JWT Auth + Refresh Tokens  
+- 🧩 Multi-tenant (Org/Workspace) + RBAC (Owner/Admin/Member)  
+- 🗄️ PostgreSQL schema design + migrations + indexing  
+- ⚡ Redis caching + background jobs (queue)  
+- 🧪 Unit + integration tests  
+- 🐳 Docker + CI/CD (GitHub Actions)  
+- 📘 OpenAPI/Swagger docs  
+- ☁️ Cloud deployment
+
+**Status:** 🛠️ Building v1 (ship with deploy + docs)
+
+---
+
+### ✅ Task Manager API (Foundation Project)
+A smaller backend project to practice the fundamentals.
+
+**What it covers**
+- REST API patterns (CRUD done right)
+- PostgreSQL + Prisma
+- JWT auth
+- Validation + error handling
 - Clean controller/service structure
 
-**Status:** Completed / Maintaining
+**Status:** Stable
 
 ---
 
-## 🧠 Core Skills (Actively Improving)
-- Backend architecture (controller/service/repository)
-- Database design & query optimization (PostgreSQL)
-- Security: validation, rate limiting, refresh token strategy
-- Caching & background processing (Redis)
+## 🧠 What I’m Actively Improving
+- Clean backend architecture (controller/service/repository)
+- PostgreSQL query optimization & indexing
+- Redis caching strategy & invalidation
+- Background jobs & retry design
 - Testing mindset (integration-first)
-- Docker & CI/CD workflows
+- Docker + CI/CD workflows
 - Writing clear technical documentation
 
 ---
 
-## 🛠 Tech Stack
-**Backend:** TypeScript, Node.js, Express/Fastify, Prisma, PostgreSQL, Redis  
-**DevOps:** Docker, GitHub Actions  
-**Frontend (minimal):** Next.js, TailwindCSS
+## 🧰 Tech Stack
+- **Backend:** TypeScript, Node.js, Express/Fastify, Prisma, PostgreSQL, Redis  
+- **DevOps:** Docker, GitHub Actions  
+- **Frontend (minimal):** Next.js, TailwindCSS  
 
 ---
 
-## 🎯 Goal
-**Medium-term:** Become a dependable **Remote Backend Engineer**  
-**Long-term:** Grow into a Full-Stack Engineer capable of building real SaaS products
+## 🎯 Goals
+- **Medium-term:** Become a dependable **Remote Backend Engineer**
+- **Long-term:** Grow into a Full-Stack Engineer capable of building real SaaS products
 
 ---
+
+<p align="center">
+  <b>GitHub:</b> @quannhq
+</p>
 
 ## 📫 Contact
 - GitHub: @quannhq
