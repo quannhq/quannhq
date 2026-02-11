@@ -99,6 +99,6 @@ A smaller backend project to practice the fundamentals.
 ---
 
 > **“No bugs left unresolved. No code left untested. No learning without building.”**  
-> — *quannhq*
+> —*quannhq*—
 
 
