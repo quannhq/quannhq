@@ -16,7 +16,7 @@
 </p>
 
 ---
-
+<!--
 ## ⭐ Featured Projects (Focus)
 
 ### 🚀 HireFlow — Multi-Tenant ATS + Job Board (Capstone)
@@ -47,6 +47,11 @@ A smaller backend project to practice the fundamentals properly.
 - Clean controller/service structure
 
 **Status:** Stable
+-->
+## 🧰 Tech Stack
+- **Backend:** JavaScript, TypeScript, Node.js, Express, Prisma, PostgreSQL, Redis  
+- **DevOps:** Docker, GitHub Actions  
+- **Frontend (minimal):** Next.js, TailwindCSS  
 
 ---
 
@@ -58,13 +63,6 @@ A smaller backend project to practice the fundamentals properly.
 - Testing mindset (integration-first)
 - Docker + CI/CD workflows
 - Writing clear technical documentation
-
----
-
-## 🧰 Tech Stack
-- **Backend:** JavaScript, TypeScript, Node.js, Express, Prisma, PostgreSQL, Redis  
-- **DevOps:** Docker, GitHub Actions  
-- **Frontend (minimal):** Next.js, TailwindCSS  
 
 ---
 
