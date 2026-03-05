@@ -98,5 +98,5 @@ A smaller backend project to practice the fundamentals properly.
 </p>
 
 <p align="center">
-  — <i>quannhq</i>
+  — <i>quannhq</i> — 
 </p>
